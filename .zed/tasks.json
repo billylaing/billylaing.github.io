@@ -1,0 +1,10 @@
+[
+  {
+    "label": "start",
+    "command": "pnpm start"
+  },
+  {
+    "label": "build",
+    "command": "pnpm build"
+  }
+]
