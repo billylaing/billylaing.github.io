@@ -4,7 +4,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "clean": "rm -rf dist"
   },
   "devDependencies": {
     "@catppuccin/tailwindcss": "^0.1.6",

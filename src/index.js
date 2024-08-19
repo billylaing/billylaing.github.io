@@ -12,12 +12,12 @@ function applyColorSchemePreference() {
     document.documentElement.style.setProperty("color-scheme", "dark");
 
     document.documentElement.classList.remove("latte");
-    document.documentElement.classList.add("macchiato");
+    document.documentElement.classList.add("mocha");
   } else {
     document.documentElement.classList.remove("dark");
     document.documentElement.style.setProperty("color-scheme", "light");
 
-    document.documentElement.classList.remove("macchiato");
+    document.documentElement.classList.remove("mocha");
     document.documentElement.classList.add("latte");
   }
 }
