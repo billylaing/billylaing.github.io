@@ -1,5 +1,6 @@
 const gradientClasses =
-  "bg-clip-text text-transparent bg-gradient-to-r from-green to-mauve";
+  "bg-clip-text text-transparent bg-gradient-to-r from-sky to-mauve";
+
 const textClasses = "p-4 text-8xl text-center font-bold";
 
 export function App() {

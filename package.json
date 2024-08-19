@@ -1,5 +1,6 @@
 {
   "name": "billylaing.github.io",
+  "type": "module",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
