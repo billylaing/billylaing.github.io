@@ -1,4 +1,6 @@
-const config = {
+import catppuccin from "@catppuccin/tailwindcss";
+
+export default {
   content: [
     "./*.{html,js,ts,tsx,jsx}",
     "./src/*.{html,js,ts,tsx,jsx}",
@@ -9,7 +11,5 @@ const config = {
     extend: {},
   },
   variants: {},
-  plugins: [require("@catppuccin/tailwindcss")],
+  plugins: [catppuccin],
 };
-
-module.exports = config;
