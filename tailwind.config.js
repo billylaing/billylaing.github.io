@@ -1,9 +1,9 @@
 export default {
-  content: ["./src/*.{html,js}"],
-  darkMode: "class",
+  content: ["./src/*.{html,js,ts,tsx,jsx}", "./src/**/*.{html,js,ts,tsx,jsx}"],
+  darkMode: "media",
   theme: {
     extend: {},
   },
   variants: {},
-  plugins: [require("@catppuccin/tailwindcss")],
+  plugins: [],
 };
