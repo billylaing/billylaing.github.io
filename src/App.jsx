@@ -1,5 +1,5 @@
 const gradientClasses =
-  "bg-clip-text text-transparent bg-gradient-to-r from-sky to-mauve";
+  "bg-clip-text text-transparent md:bg-gradient-to-r bg-gradient-to-b from-sky to-mauve";
 
 const textClasses = "p-4 text-8xl text-center font-bold";
 
